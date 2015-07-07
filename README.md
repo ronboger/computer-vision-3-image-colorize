@@ -2,9 +2,11 @@
 
 Done as a project for JHU Computer Vision, Fall 2014
 
-Developed by Ron Boger, Doran Walsten
+Developed by Ron Boger and Doran Walsten
 
-I'm choosing to open source this code because i think it's really cool and worth a run through if you have MATLAB. It colorizes a brilliant Russian guy's experiment with different lenses before color cameras were invented.
+I'm choosing to open source this code because i think it's really cool and well worth a run through if you have MATLAB. It colorizes a brilliant Russian guy's experiment with different lenses before color cameras were invented.
+
+A full PDF writeup of the methods used is also in this repo - project1 report.pdf.
 
 Leverages the [VLFeat](http://www.vlfeat.org) Package, a popular open source computer vision library for MATLAB. For installation instructions go [here](http://www.vlfeat.org/install-matlab.html)
 
@@ -12,7 +14,7 @@ To run our code, we have a function called rgb_merge.m that runs everything on a
 
 proj1.m is our wrapper function that runs rgb_merge for all the low-res images and high-res images we liked. These are stored in a folder called ‘images’. Feel free to insert other images you’d like to test into this folder. 
 
-Links to some high resolution images we used in our project:
+Links to some more high resolution images we used in our project:
 
 -[House w/ trees](http://www.loc.gov/pictures/collection/prok/item/prk2000000093/)
 
